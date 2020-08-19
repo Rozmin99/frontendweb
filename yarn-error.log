@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add create-react--app
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\DELL\frontendweb\package.json: Unexpected token } in JSON at position 270
+      at JSON.parse (<anonymous>)
+      at C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "frontendweb",
+    "version": "1.0.0",
+    "description": "This is a front-end web development with react",
+    "main": "index.html",
+    "scripts": {
+      "start":"npm run lite",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lite":"lite-server",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rozmin99/frontendweb.git"
+    },
+    "author": "Rozmin Waghu",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Rozmin99/frontendweb/issues"
+    },
+    "homepage": "https://github.com/Rozmin99/frontendweb#readme",
+    "devDependencies": {
+      "lite-server": "^2.5.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
