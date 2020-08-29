@@ -1,0 +1,90 @@
+
+
+.row-header{
+	margin:0px auto;
+	padding: 0px auto;
+
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.footer{
+	background-color: black;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background:#1DC9EE ;
+	color:floralwhite;
+}
+
+.address{
+	font-size: 80%;
+	margin: 0px;
+	color: floralwhite;
+}
+.navbar{
+	background-color:black ;
+
+}
+.carousel{
+	background: black;
+
+}
+.carousel-item{
+
+
+
+}
+.carsoule-item img{
+	position: absolute;
+	margin: 10px;
+	min-height: 300px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#bb{
+	width: 100%;
+	height: 20%;
+}
+#aa{
+	width: 100%;
+	height: 20%;
+}
+
+#rr{
+	margin: 10px;
+	
+}
+.leftcolumn {
+  float: left;
+  width: 30%;
+}
+.myvideo{
+	 min-width: 100%;
+  min-height: 100%;
+}
+.roz {
+  vertical-align: middle;
+  width: 250px;
+  height: 300px;
+
+}
