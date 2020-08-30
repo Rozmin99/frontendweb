@@ -1,0 +1,62 @@
+body{
+	background-color:black;
+}
+#detail{
+	background-color:darkblue ;
+	color: white;
+	/**padding-top: 520px;**/
+	padding-bottom: 35px;
+	padding-left: 30px;
+	font-weight: bold;
+	text-shadow: 1.5;
+}
+
+#roz{
+position: relative;
+margin-left: 400px;
+margin-top: 100px;
+
+width:400px;
+height:500px;
+}
+
+#info{
+	background-color: pink;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+#roz{
+position: relative;
+margin-left: 110px;
+margin-top: 170px;
+
+width:350px;
+height:500px;
+}
+#details{
+	
+	padding-top: 102px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	font-weight: bold;
+	text-shadow: 1.5;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px){
+	
+}
