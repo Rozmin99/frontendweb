@@ -47,8 +47,24 @@ background-color: #DEDDC6;
 	border: 12px solid white;
 
 }
+/***id**/
+.navbar-dark {
+     background-color: navy;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-size: 1.1em;
+}
+#name{
+	font-style: italic;
+	font-family: ink free;
+}
 
+#identity{
+	width: 70%;
+	margin-top: 300px;
+	
 
+}
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
