@@ -1,14 +1,14 @@
 body{
-background-color: black;	
+background-color: #f2f1b8;	
 }
 #hi{
 	padding-bottom: 280px;
 	padding-top: 300px;
-	padding-left: 200px;
+	padding-left: 260px;
 	font-weight: bold;
 	font-family: Segoe UI Black;
 	font-size: 1.0em;
-	background-color: green;
+	
 
 }
 #kj{
@@ -20,7 +20,7 @@ background-color: black;
 	font-family: sans-serif;
 }
 #photo{
-	background-color: pink;
+	
 	z-index: 2;
 
 }
@@ -32,14 +32,14 @@ background-color: black;
 	text-shadow: 0.8;
 	background-color: darkblue;
 	padding-bottom: 113px;
-	padding-top: 570px;
-	padding-left: 150px;
+	padding-top: 495px;
+	padding-left: 200px;
 }
 #rozpic{
-	width: 420px;
-	height: 520px;
-	margin-left: 90px;
-	margin-top: 150px;
+	width: 450px;
+	height: 550px;
+	margin-left: 110px;
+	margin-top: 140px;
 	/**padding-bottom: 100px;**/
 	border: 12px solid white;
 
@@ -57,13 +57,10 @@ background-color: black;
 
 #hi{
 	padding-bottom: 280px;
-	padding-top: 350px;
-	padding-left: 30px;
-	font-weight: bold;
-	font-family: Segoe UI Black;
+	padding-top: 290px;
+	padding-left: 15px;
 	font-size: 1.0em;
-	background-color: green;
-
+	
 }
 #rozpic{
 	width: 350px;
@@ -75,8 +72,8 @@ background-color: black;
 
 }
 #detail{
-	padding-bottom: 150px;
-	padding-top: 720px;
+	padding-bottom: 107px;
+	padding-top: 690px;
 	padding-left: 15px;
 }
 
@@ -91,7 +88,6 @@ background-color: black;
 	font-weight: bold;
 	font-family: Segoe UI Black;
 	font-size: 1.0em;
-	background-color: green;
 
 }
 #rozpic{
@@ -121,7 +117,6 @@ background-color: black;
 	font-weight: bold;
 	text-align: center;
 	font-size: 1.0em;
-	background-color: green;
 
 }
 #detail{
@@ -134,13 +129,13 @@ background-color: black;
 
 #rozpic{
 	width: 200px;
-	height: 200px;
+	height: 250px;
 	margin-left: 70px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	border-radius: 50%;
 	/**padding-bottom: 100px;**/
-	border: 5px solid white;
+	border: 5px solid black;
 
 }
 }
