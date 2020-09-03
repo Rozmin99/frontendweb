@@ -3,7 +3,7 @@ background-color: black;
 }
 #hi{
 	padding-bottom: 280px;
-	padding-top: 400px;
+	padding-top: 300px;
 	padding-left: 200px;
 	font-weight: bold;
 	font-family: Segoe UI Black;
@@ -31,14 +31,15 @@ background-color: black;
 	font-family: sans-serif;
 	text-shadow: 0.8;
 	background-color: darkblue;
-	padding-bottom: 120px;
-	padding-top: 725px;
-	padding-left: 170px;
+	padding-bottom: 113px;
+	padding-top: 570px;
+	padding-left: 150px;
 }
 #rozpic{
-	width: 470px;
-	margin-left: 60px;
-	margin-top: 210px;
+	width: 420px;
+	height: 520px;
+	margin-left: 90px;
+	margin-top: 150px;
 	/**padding-bottom: 100px;**/
 	border: 12px solid white;
 
