@@ -1,15 +1,14 @@
 body{
-	
+background-color: black;	
 }
 #hi{
-
-	padding-bottom: 290px;
-	padding-top: 320px;
+	padding-bottom: 280px;
+	padding-top: 350px;
 	padding-left: 200px;
 	font-weight: bold;
 	font-family: Segoe UI Black;
 	font-size: 1.0em;
-
+	background-color: green;
 
 }
 #kj{
@@ -21,18 +20,19 @@ body{
 	font-family: sans-serif;
 }
 #photo{
-
+	background-color: pink;
 	z-index: 2;
 
 }
+
 #detail{
 	color: white;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-shadow: 0.8;
 	background-color: darkblue;
-	padding-bottom: 100px;
-	padding-top: 530px;
+	padding-bottom: 94px;
+	padding-top: 540px;
 	padding-left: 200px;
 }
 #rozpic{
@@ -54,30 +54,91 @@ body{
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px){
 
+#hi{
+	padding-bottom: 280px;
+	padding-top: 350px;
+	padding-left: 30px;
+	font-weight: bold;
+	font-family: Segoe UI Black;
+	font-size: 1.0em;
+	background-color: green;
 
+}
+#rozpic{
+	width: 350px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 170px;
+	/**padding-bottom: 100px;**/
+	border: 8px solid white;
+
+}
+#detail{
+	padding-bottom: 150px;
+	padding-top: 720px;
+	padding-left: 15px;
+}
 
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px){
+#hi{
+	padding-bottom: 280px;
+	padding-top: 350px;
+	padding-left: 30px;
+	font-weight: bold;
+	font-family: Segoe UI Black;
+	font-size: 1.0em;
+	background-color: green;
 
+}
+#rozpic{
+	width: 350px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 170px;
+	/**padding-bottom: 100px;**/
+	border: 8px solid white;
+
+}
+#detail{
+	padding-bottom: 150px;
+	padding-top: 720px;
+	padding-left: 15px;
+}
 
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px){
-	#hi{
+#hi{
+
 	padding-bottom: 10px;
-	padding-top: 20px;
-	font-size: 0.8em;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.0em;
+	background-color: green;
 
 }
 #detail{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: center;
 
+}
 
-	background-color: darkblue;
-	padding-bottom: 50px;
-	padding-top: 50px;
-	padding-left: 20px;
+#rozpic{
+	width: 200px;
+	height: 300px;
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/**padding-bottom: 100px;**/
+	border: 5px solid white;
+
 }
 }
