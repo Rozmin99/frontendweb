@@ -3,7 +3,7 @@ background-color: black;
 }
 #hi{
 	padding-bottom: 280px;
-	padding-top: 350px;
+	padding-top: 400px;
 	padding-left: 200px;
 	font-weight: bold;
 	font-family: Segoe UI Black;
@@ -31,14 +31,14 @@ background-color: black;
 	font-family: sans-serif;
 	text-shadow: 0.8;
 	background-color: darkblue;
-	padding-bottom: 94px;
-	padding-top: 540px;
-	padding-left: 200px;
+	padding-bottom: 120px;
+	padding-top: 725px;
+	padding-left: 170px;
 }
 #rozpic{
 	width: 470px;
 	margin-left: 60px;
-	margin-top: 130px;
+	margin-top: 210px;
 	/**padding-bottom: 100px;**/
 	border: 12px solid white;
 
@@ -114,8 +114,8 @@ background-color: black;
 @media (max-width: 479px){
 #hi{
 
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-top: 8px;
 	padding-left: 15px;
 	font-weight: bold;
 	text-align: center;
@@ -133,10 +133,11 @@ background-color: black;
 
 #rozpic{
 	width: 200px;
-	height: 300px;
+	height: 200px;
 	margin-left: 70px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 50%;
 	/**padding-bottom: 100px;**/
 	border: 5px solid white;
 
