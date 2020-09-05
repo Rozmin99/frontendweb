@@ -18,6 +18,7 @@ background-color: #D9D6FC;
 }
 #kj{
 	font-family: sans-serif;
+	fo
 }
 #know{
 	background-color: navy;
@@ -250,6 +251,9 @@ background-color: #D9D6FC;
 	text-align: center;
 	font-size: 0.9rem;
 
+}
+#kj{
+	font-size: 1.0rem;
 }
 #detail{
 	padding-bottom: 30px;
