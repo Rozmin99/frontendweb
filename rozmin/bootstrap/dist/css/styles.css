@@ -1,7 +1,10 @@
 body{
-background-color: #DEDDC6;	
+/**#D9D6Fc**/
+background-color: #D9D6FC;
+ }
+#topimg{
+	width: 100%;
 }
-
 #hi{
 	float: left;
 	padding-bottom: 280px;
@@ -60,14 +63,67 @@ background-color: #DEDDC6;
 }
 
 #identity{
-	width: 70%;
-	margin-top: 300px;
-	
+	width: 90%;
+	margin:-170px auto auto auto;
 
 }
+#connect{
+	background-color: navy;
+}
+#hname{
+	margin-left: 10px;
+}
+.idph{
+	margin-top: 10px;
+	float: left;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -120px;
+	position: absolute;
+	width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+
+}
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+.idph{
+	margin-top: 20px;
+	float: left;
+}
+#hi{
+	padding-bottom: 280px;
+	padding-top: 290px;
+	padding-left: 15px;
+	font-size: 1.0em;
+	
+}
+#rozpic{
+	width: 350px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 160px;
+	/**padding-bottom: 100px;**/
+	border: 8px solid white;
+
+}
+#detail{
+	padding-bottom: 127px;
+	padding-top: 690px;
+	padding-left: 15px;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -120px;
+	margin-left: 50px;
+	position: absolute;
+	width: 80%;
+}
 
 }
 
@@ -91,9 +147,22 @@ background-color: #DEDDC6;
 
 }
 #detail{
-	padding-bottom: 107px;
+	padding-bottom: 127px;
 	padding-top: 690px;
 	padding-left: 15px;
+}
+.idph{
+	margin:50px auto auto auto;
+	width: 270px;
+	height: 400px;
+
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -120px;
+	margin-left: 40px;
+	position: absolute;
+	width: 80%;
 }
 
 }
@@ -122,6 +191,13 @@ background-color: #DEDDC6;
 	padding-bottom: 150px;
 	padding-top: 720px;
 	padding-left: 15px;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -50px;
+	margin-left: 25px;
+	position: absolute;
+	width: 80%;
 }
 
 }
@@ -157,12 +233,14 @@ background-color: #DEDDC6;
 	border: 3px solid black;
 
 }
+
+
 }
 
 
 
 /********** Super extraextra small devices Only :-) (e.g., iPhone 4) **********/
-@media (min-width: 375px) and (max-height:812px ){
+@media (min-width: 375px) or (max-height:812px ){
 #hi{
 
 	padding-bottom: 15px;
@@ -192,4 +270,25 @@ background-color: #DEDDC6;
 	border: 3px solid black;
 
 }
+/**idcard**/
+.idph{
+	margin: 15px auto 10px 17px;
+	width: 270px;
+
+}
+#identity{
+	width: 95%;
+	margin:-220px auto auto auto;
+
+}
+
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -150px;
+	margin-left: 25px;
+	position: absolute;
+	width: 80%;
+}
+
 }
