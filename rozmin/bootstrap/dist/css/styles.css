@@ -7,14 +7,12 @@ background-color: #D9D6Fc;
 }
 #hi{
 	float: left;
-	padding-bottom: 280px;
+	padding-bottom: 20px;
 	padding-top: 300px;
 	padding-left: 260px;
 	font-weight: bold;
 	font-family: Segoe UI Black;
-	font-size: 1.0em;
-	
-
+	font-size: 1.0em;	
 }
 #kj{
 	font-family: sans-serif;
@@ -75,6 +73,7 @@ background-color: #D9D6Fc;
 	margin-left: 10px;
 }
 .idph{
+	width: 290px;
 	margin-top: 10px;
 	float: left;
 }
@@ -84,7 +83,10 @@ background-color: #D9D6Fc;
 	position: absolute;
 	width: 100%;
 }
-/******about888888*********/
+/******about888888******/
+#about1{
+	background-color: #d1be88;
+}
 #abouts{
 font-size: 1.1em;
 padding-top: 200px;
@@ -131,38 +133,58 @@ height: 100%;
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
-.idph{
-	margin-top: 20px;
-	float: left;
-}
 #hi{
 	padding-bottom: 280px;
-	padding-top: 290px;
+	padding-top: 400px;
 	padding-left: 15px;
 	font-size: 1.0rem;
 	
 }
 #rozpic{
-	width: 350px;
-	height: 500px;
+	width: 450px;
+	height: 600px;
 	margin-left: 0px;
-	margin-top: 160px;
+	margin-top: 260px;
 	/**padding-bottom: 100px;**/
 	border: 8px solid white;
 
 }
 #detail{
 	padding-bottom: 127px;
-	padding-top: 690px;
+	padding-top: 950px;
 	padding-left: 15px;
 }
-/*********contact*****************************/
-#contact{
-	margin-top: -120px;
-	margin-left: 50px;
+/******about888888******/
+#abouts{
+font-size: 1.2em;
+padding-top: 120px;
+padding-left: 220px;
+padding-right: 50px;
+text-align: justify;
+}
+
+#rozpic2{
+	width: 423px;
+	color: white;
+	margin-left: -15px;
+	padding-top:50px; 
+}
+#picbox{
+color:#D9D6Fc;
+background-color: navy;
+width: 100%;
+height: 100%;
+
+}
+#gi{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	padding-left: 70px;
+	margin-top: -70px;
+	margin-left: -15px;
 	position: absolute;
-	width: 80%;
+	width: 423px;
 }
 
 }
@@ -192,9 +214,14 @@ height: 100%;
 	padding-left: 15px;
 }
 .idph{
-	margin:50px auto auto auto;
+	margin:10px auto auto auto;
 	width: 270px;
 	height: 400px;
+
+}
+#identity{
+	width: 100%;
+	margin:-170px auto auto auto;
 
 }
 /*********contact*****************************/
@@ -203,6 +230,39 @@ height: 100%;
 	margin-left: 40px;
 	position: absolute;
 	width: 80%;
+}
+/******about888888******/
+#abouts{
+font-size: 1.0em;
+padding-top: 100px;
+padding-left: 170px;
+padding-right: 30px;
+text-align: justify;
+}
+
+#rozpic2{
+	width: 330px;
+	
+	margin-left: -15px;
+	padding-top:50px; 
+}
+#picbox{
+color:#D9D6Fc;
+background-color: navy;
+width: 100%;
+height: 100%;
+
+}
+#gi{
+	color: white;
+	text-align: justify-all;
+	padding-top: 30px;
+	padding-bottom: 45px;
+	padding-left: 35px;
+	margin-top: -70px;
+	margin-left: -15px;
+	position: absolute;
+	width: 330px;
 }
 
 }
@@ -239,6 +299,11 @@ height: 100%;
 	position: absolute;
 	width: 80%;
 }
+#identity{
+	width: 90%;
+	margin:-170px auto auto auto;
+
+}
 
 }
 
@@ -263,75 +328,82 @@ height: 100%;
 }
 
 #rozpic{
-	width: 200px;
-	height: 250px;
-	margin-left: 70px;
+	width: 300px;
+	height: 400px;
+	margin-left: 15px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	border-radius: 50%;
 	/**padding-bottom: 100px;**/
-	border: 3px solid black;
+	border: 0px solid white;
+
+}
+/***id**/
+
+#identity{
+	width: 100%;
+	margin:-220px auto auto auto;
 
 }
 
+#hname{
+	margin-left: 10px;
+}
+.idph{
+	padding-bottom: 10px;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -170px;
+	margin-left: 04px;
+	position: absolute;
+	width: 90%;
+}
+/******about888888******/
+#abouts{
+font-size: 1.0em;
+padding-top: 100px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 10px;
+text-align: justify;
+}
+#abouts h2{
+	text-align: center;
+}
+#rozpic2{
+	width: 330px;
+	margin-left: 0px;
+	padding-top:50px; 
+}
+#picbox{
+color:#D9D6Fc;
+background-color: navy;
+width: 100%;
+height: 100%;
 
+}
+#gi{
+	color: white;
+	text-align: justify-all;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-left: 55px;
+	margin-top: -70px;
+	margin-left: -15px;
+	position: absolute;
+	width: 100%;
+}
 }
 
 
 
 /********** Super extraextra small devices Only :-) (e.g., iPhone 4) **********/
-@media (min-width: 375px) or (max-height:812px ){
-#hi{
+@media (min-width: 479px) {
 
-	padding-bottom: 15px;
-	padding-top: 15px;
-	padding-left: 15px;
-	font-weight: bold;
-	text-align: center;
-	font-size: 0.9rem;
-
-}
-#kj{
-	font-size: 1.0rem;
-}
-#detail{
-	padding-bottom: 30px;
-	padding-top: 30px;
-	padding-left: 10px;
-	text-align: center;
-
-}
-
-#rozpic{
-	width: 200px;
-	height: 250px;
-	margin-left: 70px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-
-	/**padding-bottom: 100px;**/
-	border: 3px solid black;
 
 }
 /**idcard**/
 .idph{
-	margin: 15px auto 10px 17px;
-	width: 270px;
 
-}
-#identity{
-	width: 95%;
-	margin:-220px auto auto auto;
-
-}
-
-}
-/*********contact*****************************/
-#contact{
-	margin-top: -150px;
-	margin-left: 25px;
-	position: absolute;
-	width: 80%;
-}
 
 }
