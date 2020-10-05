@@ -86,7 +86,7 @@ background-color: #D9D6Fc;
 }
 /******about888888******/
 #about1{
-	background-color: #d1be88;
+	background-color: white;
 }
 #abouts{
 font-size: 1.1em;
@@ -124,15 +124,89 @@ height: 100%;
 	position: absolute;
 	width: 100%;
 }
-/*********project**********/
-#project{
-	margin-top: 200px;
-}
-/********skills*********/
-#accordion{
-	margin-top: 500px;
+/*********certificate**********/
+.cert {
+	text-align: center;
+	font-family: sans-serif;
+	box-shadow: 5px 3px 3px 3px #888888;	
+margin-top: -30px;background-color: black;
 }
 
+#certb{
+	text-align: center;
+	margin-top: 30px;
+
+}
+ #cert1 {
+margin-top: 40px;
+margin-left: 130px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+}
+#cert1 img{
+	width: 600px;
+	height: 500px;
+}
+#cert2{
+margin-top: 100px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 130px;
+}
+#cert2 img{
+	width: 600px;
+	height: 500px;
+}
+#cert3{
+margin-left: 130px;
+margin-top: -0px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+}
+#cert3 img{
+	width: 600px;
+	height: 500px;
+}
+#cert4{
+margin-top: 60px;
+margin-left: 130px;
+box-shadow: 5px 10px 3px 3px  #888888;
+width:650px;
+}
+#cert4 img{
+	width: 600px;
+	height: 500px;
+}
+#cert5{
+	margin-top: -40px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 130px;
+}
+#cert5 img{
+	width: 600px;
+	height: 500px;
+}
+#cert6{
+	margin-top: 70px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 130px;
+}
+#cert5 img{
+	width: 600px;
+	height: 500px;
+}
+.vl {
+  border-left: 10px solid black;
+  height: 890px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-top: 380px;
+  margin-bottom: 10px;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
  

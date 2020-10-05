@@ -1,0 +1,98 @@
+<div class="container">
+
+<div id="accordion">
+	<h1 class="text-center">My Certificates</h1>
+  	<div class="card mt-5">
+
+          
+HTML, CSS, and Javascript for Web Developers<br>
+Johns Hopkins University<br>
+
+    	<div class="card-header" id="headingOne">
+      	<h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <span class="fa file-certificate"></span>View Certificate
+
+        </button>
+      	</h5>
+    	</div>
+
+    	<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      		<div class="card-body">
+      
+        	<img src="images/data.jpg" alt="data" width="500" height="500">
+      		</div>
+    	</div>
+  	</div>
+<!--2-->
+  	<div class="card mt-5">
+    	<div class="card-header" id="headingtwo">
+      	<h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+          Front-End Web UI Frameworks and Tools
+        </button>
+      	</h5>
+    	</div>
+
+    	<div id="collapsetwo" class="collapse show" aria-labelledby="headingtwo" data-parent="#accordion">
+      		<div class="card-body">
+      
+        	<img src="images/data.jpg" alt="data" width="500" height="500">
+      		</div>
+    	</div>
+  	</div>
+  	<!----3---->
+  	<div class="card mt-5">
+    	<div class="card-header" id="headingthree" >
+      	<h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+          Getting Started with AWS Machine Learning
+        </button>
+      	</h5>
+    	</div>
+
+    	<div id="collapsethree" class="collapse show" aria-labelledby="headingthree" data-parent="#accordion">
+      		<div class="card-body">
+      
+        	<img src="images/data.jpg" alt="data" width="500" height="500">
+      		</div>
+    	</div>
+  	</div>
+  	<!--4-->
+  	<div class="card mt-5">
+    	<div class="card-header" id="headingfour">
+      	<h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+          Cybersecurity and the Internet of Things
+        </button>
+      	</h5>
+    	</div>
+
+    	<div id="collapsefour" class="collapse show" aria-labelledby="headingfour" data-parent="#accordion">
+      		<div class="card-body">
+      
+        	<img src="images/data.jpg" alt="data" width="500" height="500">
+      		</div>
+    	</div>
+  	</div>
+  	<!----5---->
+  	<div class="card mt-5">
+    	<div class="card-header" id="headingfive">
+      	<h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+          SQL for Data Science
+        </button>
+      	</h5>
+    	</div>
+
+    	<div id="collapsefive" class="collapse show" aria-labelledby="headingfive" data-parent="#accordion">
+      		<div class="card-body">
+      
+        	<img src="images/data.jpg" alt="data" width="500" height="500">
+      		</div>
+    	</div>
+  	</div>
+
+</div>
+</div>
+<!--deatils1-->
