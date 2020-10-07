@@ -54,7 +54,7 @@ background-color: #D9D6Fc;
      background-color: navy;
      padding-top: 15px;
      padding-bottom: 15px;
-     font-size: 1.1em;
+     font-size: 1.0em;
 }
 #name{
 	font-style: italic;
@@ -126,18 +126,17 @@ height: 100%;
 }
 /*********certificate**********/
 .cert {
-	text-align: center;
-	font-family: sans-serif;
-	box-shadow: 5px 3px 3px 3px #888888;	
-margin-top: -30px;background-color: black;
+text-align: center;
+font-family: sans-serif;
+box-shadow: 5px 3px 3px 3px #888888;	
+margin-top: -30px;
 }
-
 #certb{
 	text-align: center;
 	margin-top: 30px;
-
 }
  #cert1 {
+ background-color: #fff;
 margin-top: 40px;
 margin-left: 130px;
 box-shadow: 5px 10px 3px 3px #888888;
@@ -152,6 +151,7 @@ margin-top: 100px;
 box-shadow: 5px 10px 3px 3px #888888;
 width:650px;
 margin-left: 130px;
+background-color: #fff;
 }
 #cert2 img{
 	width: 600px;
@@ -159,53 +159,111 @@ margin-left: 130px;
 }
 #cert3{
 margin-left: 130px;
-margin-top: -0px;
+margin-top: 30px;
 box-shadow: 5px 10px 3px 3px #888888;
 width:650px;
+background-color: #fff;
 }
 #cert3 img{
 	width: 600px;
 	height: 500px;
 }
 #cert4{
-margin-top: 60px;
+margin-top: 80px;
 margin-left: 130px;
 box-shadow: 5px 10px 3px 3px  #888888;
 width:650px;
+background-color: #fff;
 }
 #cert4 img{
 	width: 600px;
 	height: 500px;
 }
 #cert5{
-	margin-top: -40px;
+	margin-top: 20px;
 box-shadow: 5px 10px 3px 3px #888888;
 width:650px;
 margin-left: 130px;
+background-color: #fff;
 }
 #cert5 img{
 	width: 600px;
 	height: 500px;
 }
 #cert6{
-	margin-top: 70px;
+	margin-top: 80px;
 box-shadow: 5px 10px 3px 3px #888888;
 width:650px;
 margin-left: 130px;
+background-color: #fff;
 }
-#cert5 img{
+#cert6 img{
 	width: 600px;
 	height: 500px;
 }
 .vl {
   border-left: 10px solid black;
-  height: 890px;
+  height: 940px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
   top: 0;
   margin-top: 380px;
   margin-bottom: 10px;
+}
+.arrow1 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 45.1%;
+  position: absolute;
+  margin: 142px 30px 100px 0px;
+}
+.arrow2 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 45.1%;
+  position: absolute;
+
+  margin: 450px 30px 100px 0px;
+}
+.arrow3 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 44.8%;
+  position: absolute;
+  margin: 762px 30px 100px 0px;
+}
+.arrow4 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 195px 30px 100px 0px;
+}
+.arrow5 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 505px 30px 100px 0px;
+}
+.arrow6 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 820px 30px 100px 0px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+#myc{
+	margin-top: -103px;
+	text-align: center;
+	color: white;
+	font-family:helvic;
+
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -346,6 +404,127 @@ height: 100%;
 	position: absolute;
 	width: 330px;
 }
+/*********certificate**********/
+
+#cert1 {
+background-color: #fff;
+margin-top: 40px;
+margin-left: 17px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+}
+#cert1 img{
+	width: 300px;
+	height: 300px;
+}
+#cert2{
+margin-top: -210px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 420px;
+background-color: #fff;
+}
+#cert2 img{
+	width: 300px;
+	height: 300px;
+}
+#cert3{
+margin-left: 20px;
+margin-top: -60px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+background-color: #fff;
+}
+#cert3 img{
+	width: 300px;
+	height: 300px;
+}
+#cert4{
+margin-top: -160px;
+margin-left: 420px;
+box-shadow: 5px 10px 3px 3px  #888888;
+width:650px;
+background-color: #fff;
+}
+#cert4 img{
+	width: 300px;
+	height:300px;
+}
+#cert5{
+	margin-top: -120px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 20px;
+background-color: #fff;
+}
+#cert5 img{
+	width: 300px;
+	height: 300px;
+}
+#cert6{
+margin-top: -120px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 420px;
+background-color: #fff;
+}
+#cert6 img{
+	width: 300px;
+	height: 300px;
+}
+.vl {
+  border-left: 10px solid black;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-top: 380px;
+  margin-bottom: 10px;
+}
+.arrow1 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 41%;
+  position: absolute;
+  margin: 142px 30px 100px 0px;
+}
+.arrow2 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 41%;
+  position: absolute;
+
+  margin: 450px 30px 100px 0px;
+}
+.arrow3 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 41%;
+  position: absolute;
+  margin: 740px 30px 100px 0px;
+}
+.arrow4 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 210px 30px 100px 0px;
+}
+.arrow5 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 550px 30px 100px 0px;
+}
+.arrow6 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 875px 30px 100px 0px;
+}
 
 }
 
@@ -476,6 +655,78 @@ height: 100%;
 	position: absolute;
 	width: 100%;
 }
+/***88certifi******8**/
+#cert1 {
+margin-top: 40px;
+margin-left: 35px;
+width:650px;
+}
+#cert1 img{
+width: 650px;
+}
+#cert2{
+margin-top: 30px;
+width:650px;
+margin-left: 35px;
+}
+#cert2 img{
+width: 650px;
+}
+#cert3 {
+margin-top: 40px;
+margin-left: 35px;
+width:650px;
+}
+#cert3 img{
+width: 650px;
+}
+#cert4 {
+margin-top: 40px;
+margin-left: 35px;
+width:650px;
+}
+#cert4 img{
+width: 650px;
+}
+#cert5 {
+margin-top: 40px;
+margin-left: 0px;
+width:650px;
+}
+#cert5 img{
+width: 650px;
+}#cert6 {
+margin-top: 40px;
+margin-left: 35px;
+width:650px;
+}
+#cert6 img{
+width: 650px;
+}
+
+.vl {
+  display: none;
+}
+.arrow1 {
+    display: none;
+}
+.arrow2 { 
+	display: none;
+}
+.arrow3 {  
+	display: none;
+}
+.arrow4 { 
+ display: none;
+}
+.arrow5 { 
+	display: none;
+}
+.arrow6 { 
+ display: none;
+}
+
+
 }
 
 
