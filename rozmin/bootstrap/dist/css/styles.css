@@ -266,6 +266,24 @@ background-color: #fff;
 	font-family:helvic;
 
 }
+/********eduction**********/
+#edh1{
+	margin-top: -110px;
+	font-family:helvic;
+}
+#school{
+	float: left;
+	margin: 100px 10px 0px 100px;
+}
+#gpr{
+float: left;
+	margin: 100px 0px 0px 0px;
+}
+#somaiya{
+float: left;
+	margin: 100px 0px 0px 0px;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
  
