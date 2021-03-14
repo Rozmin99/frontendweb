@@ -1,0 +1,808 @@
+body{
+/**#D9D6Fc**/
+background-color:#D9D6Fc;
+
+ }
+#topimg{
+	width: 100%;
+}
+#hi{
+	float: left;
+	padding-bottom: 20px;
+	padding-top: 300px;
+	padding-left: 260px;
+	font-weight: bold;
+	font-family: Segoe UI Black;
+	font-size: 1.0em;	
+}
+#kj{
+	font-family: sans-serif;
+	fo
+}
+#know{
+	background-color: navy;
+	color: white;
+	font-family: sans-serif;
+}
+#photo{
+	float: left;
+	z-index: 2;
+
+}
+
+#detail{
+	float: left;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-shadow: 0.8;
+	background-color: darkblue;
+	padding-bottom: 114px;
+	padding-top: 520px;
+	padding-left: 200px;
+}
+#rozpic{
+	width: 420px;
+	height: 520px;
+	margin-left: 110px;
+	margin-top: 140px;
+	/**padding-bottom: 100px;**/
+	border: 12px solid white;
+
+}
+/***id**/
+.navbar-dark {
+     background-color: navy;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-size: 1.0em;
+}
+#name{
+	font-style: italic;
+	font-family: ink free;
+}
+
+#identity{
+	width: 90%;
+	margin:-170px auto auto auto;
+
+}
+#connect{
+	background-color: navy;
+}
+#hname{
+	margin-left: 10px;
+}
+.idph{
+	width: 290px;
+	margin-top: 10px;
+	float: left;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -120px;
+	position: absolute;
+	width: 100%;
+	margin-left: -20px;
+}
+/******about888888******/
+#about1{
+	background-color: white;
+}
+#abouts{
+font-size: 1.1em;
+padding-top: 150px;
+padding-left: 150px;
+padding-right: 150px;
+font-family: alegrian;
+font-style: italic;
+font-weight: bold;
+}
+
+#rozpic2{
+	background-color: navy;
+	width: 423px;
+	color: white;
+	margin-left: -13px;
+	padding-top:40px; 
+
+}
+#picbox{
+color:#D9D6Fc ;
+background-color: navy;
+width: 100%;
+height: 100%;
+
+}
+#gi{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	padding-left: 70px;
+	margin-top: -70px;
+	margin-left: -15px;
+	background-color: navy;
+	position: absolute;
+	width: 100%;
+}
+/*********certificate**********/
+.cert {
+text-align: center;
+font-family: sans-serif;
+box-shadow: 5px 3px 3px 3px #888888;	
+margin-top: -30px;
+}
+#certb{
+	text-align: center;
+	margin-top: 30px;
+}
+ #cert1 {
+ background-color: #fff;
+margin-top: 40px;
+margin-left: 130px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+}
+#cert1 img{
+	width: 600px;
+	height: 500px;
+}
+#cert2{
+margin-top: 100px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 130px;
+background-color: #fff;
+}
+#cert2 img{
+	width: 600px;
+	height: 500px;
+}
+#cert3{
+margin-left: 130px;
+margin-top: 30px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+background-color: #fff;
+}
+#cert3 img{
+	width: 600px;
+	height: 500px;
+}
+#cert4{
+margin-top: 80px;
+margin-left: 130px;
+box-shadow: 5px 10px 3px 3px  #888888;
+width:650px;
+background-color: #fff;
+}
+#cert4 img{
+	width: 600px;
+	height: 500px;
+}
+#cert5{
+	margin-top: 20px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 130px;
+background-color: #fff;
+}
+#cert5 img{
+	width: 600px;
+	height: 500px;
+}
+#cert6{
+	margin-top: 80px;
+box-shadow: 5px 10px 3px 3px #888888;
+width:650px;
+margin-left: 130px;
+background-color: #fff;
+}
+#cert6 img{
+	width: 600px;
+	height: 500px;
+}
+.vl {
+  border-left: 10px solid black;
+  height: 940px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-top: 380px;
+  margin-bottom: 10px;
+}
+.arrow1 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 45.1%;
+  position: absolute;
+  margin: 142px 30px 100px 0px;
+}
+.arrow2 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 45.1%;
+  position: absolute;
+
+  margin: 450px 30px 100px 0px;
+}
+.arrow3 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 44.8%;
+  position: absolute;
+  margin: 762px 30px 100px 0px;
+}
+.arrow4 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 195px 30px 100px 0px;
+}
+.arrow5 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 505px 30px 100px 0px;
+}
+.arrow6 {
+  border: solid white;
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  position: absolute;
+  margin: 820px 30px 100px 0px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+#myc{
+	margin-top: -103px;
+	text-align: center;
+	color: white;
+	font-family:helvic;
+
+}
+/********eduction**********/
+#edh1{
+	margin-top: -110px;
+	font-family:helvic;
+}
+#school{
+	float: left;
+	margin: 100px 10px 0px 100px;
+}
+#gpr{
+float: left;
+	margin: 100px 0px 0px 0px;
+}
+#somaiya{
+float: left;
+	margin: 100px 0px 0px 0px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#hi{
+	padding-bottom: 280px;
+	padding-top: 400px;
+	padding-left: 15px;
+	font-size: 1.0rem;
+	
+}
+#rozpic{
+	width: 450px;
+	height: 600px;
+	margin-left: 0px;
+	margin-top: 260px;
+	/**padding-bottom: 100px;**/
+	border: 8px solid white;
+
+}
+#detail{
+	padding-bottom: 127px;
+	padding-top: 950px;
+	padding-left: 15px;
+}
+/******about888888******/
+#abouts{
+font-size: 1.2em;
+padding-top: 120px;
+padding-left: 220px;
+padding-right: 50px;
+text-align: justify;
+}
+
+#rozpic2{
+	width: 423px;
+	color: white;
+	margin-left: -15px;
+	padding-top:50px; 
+}
+#picbox{
+color:#D9D6Fc;
+background-color: navy;
+width: 100%;
+height: 100%;
+
+}
+#gi{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	padding-left: 70px;
+	margin-top: -70px;
+	margin-left: -15px;
+	position: absolute;
+	width: 423px;
+}
+/*********certificate**********/
+#cert1 {
+margin-top: 10px;
+margin-left: 35px;
+}
+#cert2{
+margin-top: -210px;
+margin-left: 560px;
+}
+
+#cert3{
+margin-left: 35px;
+margin-top: -40px;
+}
+#cert4{
+margin-top: -120px;
+margin-left: 560px;
+}
+#cert5{
+margin-top: -105px;
+margin-left: 40px;
+}
+#cert6{
+margin-top: -80px;
+margin-left: 560px;
+}
+.arrow1 {
+ border-width: 0 45px 45px 0px;
+ left: 43%; 
+ margin: 115px 30px 100px 0px;
+}
+.arrow2 {
+ border-width: 0 45px 45px 0px;
+ left: 43%; 
+margin: 362px 30px 100px 0px;
+}
+.arrow3 {
+  border-width: 0 45px 45px 0px;
+   left: 43%; 
+  margin: 615px 30px 100px 0px;
+}
+.arrow4 {
+  border-width: 0 45px 45px 0px;
+   left: 52.4%;
+  margin: 160px 30px 100px 0px;
+}
+.arrow5 {
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  margin: 480px 30px 100px 0px;
+}
+.arrow6 {
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  margin: 785px 30px 100px 0px;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+#hi{
+	padding-bottom: 280px;
+	padding-top: 290px;
+	padding-left: 15px;
+	font-size: 1.0rem;
+	
+}
+#rozpic{
+	width: 350px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 160px;
+	/**padding-bottom: 100px;**/
+	border: 8px solid white;
+
+}
+#detail{
+	padding-bottom: 127px;
+	padding-top: 690px;
+	padding-left: 15px;
+}
+.idph{
+	margin:10px auto auto auto;
+	width: 270px;
+	height: 400px;
+
+}
+#identity{
+	width: 100%;
+	margin:-170px auto auto auto;
+
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -120px;
+	margin-left: 40px;
+	position: absolute;
+	width: 80%;
+}
+/******about888888******/
+#abouts{
+font-size: 1.0em;
+padding-top: 100px;
+padding-left: 170px;
+padding-right: 30px;
+text-align: justify;
+}
+
+#rozpic2{
+	width: 330px;
+	
+	margin-left: -15px;
+	padding-top:50px; 
+}
+#picbox{
+color:#D9D6Fc;
+background-color: pink;
+width: 100%;
+height: 100%;
+
+}
+#gi{
+	color: white;
+	text-align: justify-all;
+	padding-top: 30px;
+	padding-bottom: 45px;
+	padding-left: 35px;
+	margin-top: -70px;
+	margin-left: -15px;
+	position: absolute;
+	width: 330px;
+}
+/*********certificate**********/
+#cert1 {
+background-color: #fff;
+margin-top: 40px;
+margin-left: 17px;
+width:650px;
+}
+#cert1 img{
+	width: 300px;
+	height: 300px;
+}
+#cert2{
+margin-top: -210px;
+width:650px;
+margin-left: 420px;
+background-color: #fff;
+}
+#cert2 img{
+	width: 300px;
+	height: 300px;
+}
+#cert3{
+margin-left: 20px;
+margin-top: -60px;
+width:650px;
+background-color: #fff;
+}
+#cert3 img{
+	width: 300px;
+	height: 300px;
+}
+#cert4{
+margin-top: -160px;
+margin-left: 420px;
+width:650px;
+background-color: #fff;
+}
+#cert4 img{
+	width: 300px;
+	height:300px;
+}
+#cert5{
+	margin-top: -120px;
+width:650px;
+margin-left: 20px;
+background-color: #fff;
+}
+#cert5 img{
+	width: 300px;
+	height: 300px;
+}
+#cert6{
+margin-top: -120px;
+width:650px;
+margin-left: 420px;
+background-color: #fff;
+}
+#cert6 img{
+	width: 300px;
+	height: 300px;
+}
+.vl {
+  border-left: 10px solid black;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-top: 380px;
+  margin-bottom: 10px;
+}
+.arrow1 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 41%;
+  position: absolute;
+  margin: 142px 30px 100px 0px;
+}
+.arrow2 {
+  border: solid white;
+  border-width: 0 40px 40px 0px;
+   left: 41%;
+  position: absolute;
+
+  margin: 450px 30px 100px 0px;
+}
+.arrow3 {
+  border-width: 0 45px 45px 0px;
+   left: 41%; 
+  margin: 740px 30px 100px 0px;
+}
+.arrow4 {
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  margin: 210px 30px 100px 0px;
+}
+.arrow5 {
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  margin: 550px 30px 100px 0px;
+}
+.arrow6 {
+  border-width: 0 45px 45px 0px;
+   left: 52.5%;
+  margin: 875px 30px 100px 0px;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px)
+{
+#hi{
+	padding-bottom: 280px;
+	padding-top: 350px;
+	padding-left: 30px;
+	font-weight: bold;
+	font-family: Segoe UI Black;
+	font-size: 1.0rem;
+
+}
+#rozpic{
+	width: 350px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 170px;
+	/**padding-bottom: 100px;**/
+	border: 8px solid white;
+
+}
+#detail{
+	padding-bottom: 150px;
+	padding-top: 720px;
+	padding-left: 15px;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -50px;
+	margin-left: 25px;
+	position: absolute;
+	width: 80%;
+}
+#identity{
+	width: 90%;
+	margin:-170px auto auto auto;
+
+}
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px){
+#hi{
+
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-left: 15px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.0rem;
+
+}
+#detail{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: center;
+
+}
+
+#rozpic{
+	width: 300px;
+	height: 400px;
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	/**padding-bottom: 100px;**/
+	border: 0px solid white;
+
+}
+/***id**/
+
+#identity{
+	width: 100%;
+	margin:-220px auto auto auto;
+
+}
+
+#hname{
+	margin-left: 10px;
+}
+.idph{
+	padding-bottom: 10px;
+}
+/*********contact*****************************/
+#contact{
+	margin-top: -170px;
+	margin-left: 04px;
+	position: absolute;
+	width: 90%;
+}
+/******about888888******/
+#abouts{
+font-size: 1.0em;
+padding-top: 100px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 10px;
+text-align: justify;
+}
+#abouts h2{
+	text-align: center;
+}
+#rozpic2{
+	width: 330px;
+	margin-left: 0px;
+	padding-top:50px; 
+}
+#picbox{
+color:#D9D6Fc;
+background-color: navy;
+width: 100%;
+height: 100%;
+
+}
+#gi{
+	color: white;
+	text-align: justify-all;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-left: 55px;
+	margin-top: -70px;
+	margin-left: -15px;
+	position: absolute;
+	width: 100%;
+}
+/***88certifi******8**/
+#cert1 {
+margin-top: 10px;
+margin-left: 12px;
+
+width:330px;
+}
+#cert1 img{
+width: 300px;
+}
+#cert2 {
+margin-top: 20px;
+margin-left: 12px;
+width:330px;
+}
+#cert2 img{
+width: 300px;
+}
+#cert3 {
+margin-top: 20px;
+margin-left: 12px;
+width:330px;
+}
+#cert3 img{
+width: 300px;
+}
+#cert4 {
+margin-top: 20px;
+margin-left: 12px;
+width:330px;
+}
+#cert4 img{
+width: 300px;
+}
+#cert5 {
+margin-top: 20px;
+margin-left: 12px;
+width:330px;
+}
+#cert5 img{
+width: 300px;
+}
+#cert6 {
+margin-top: 20px;
+margin-left: 12px;
+width:330px;
+margin-bottom: 20px;
+}
+#cert6 img{
+width: 300px;
+
+}
+
+
+.vl {
+  display: none;
+}
+.arrow1 {
+    display: none;
+}
+.arrow2 { 
+	display: none;
+}
+.arrow3 {  
+	display: none;
+}
+.arrow4 { 
+ display: none;
+}
+.arrow5 { 
+	display: none;
+}
+.arrow6 { 
+ display: none;
+}
+
+
+}
+
+
+
+/********** Super extraextra small devices Only :-) (e.g., iPhone 4) **********/
+@media (min-width: 479px) {
+
+
+}
+/**idcard**/
+.idph{
+
+
+}
