@@ -7,9 +7,9 @@
 	background-attachment: fixed;
 }
 #leftside{
-	margin: -755px 0px 0px 0px;
+	margin: -760px 0px 0px 0px;
 	background-color:rgb(255,0,0,0.5);
-	height: 100.1vh;
+	height: 100.5vh;
 	width: 500px;
 }
 #rozimg{
@@ -45,6 +45,21 @@
 	padding-left: 40px;
 	font-family: Helvetica, sans-serif;
 	text-transform: uppercase;
+}
+#intro{
+	margin: -500px 0px 0px 522px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+#know{
+	color: white;
+	font-size: 0.7em;
+	font-weight: bold;
+	text-shadow: 4px 2px black;
+	border:3.5px solid white;
 }
 /****about*****/
 
