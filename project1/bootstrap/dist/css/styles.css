@@ -65,7 +65,17 @@
 	border:3.5px solid white;
 }
 /****about*****/
-
+#logo{
+ 	margin: 30px 0px 0px 0px;
+	font-style: italic;
+	font-family: ink free;
+}
+#Navbar{
+	margin: 30px 0px 0px 20px;
+	background-color: rgb(255,255,255,0.2);
+	border-radius: 45%;
+	justify-content: center;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
  
@@ -133,10 +143,10 @@ font-size: 1.3em;
 #leftside{
 	margin: -1411.5px 0px 0px 0px;
 	height: 137.8vh;
-	width: 550px;
+	width: 560px;
 }
 #rozimg{
-	margin: 180px 0px 0px 30px;
+	margin: 200px 0px 0px 30px;
 	width: 180px;
 	height: 180px;
 }
@@ -145,8 +155,9 @@ font-size: 1.3em;
 	text-shadow: 4px 4px #000a;
 }
 .degree{
-	font-size: 1.3em;
+	font-size: 1.4em;
 	text-shadow: 3px 3px #000a;
+	margin-left: -9px;
 }
 
 .details{
@@ -155,13 +166,13 @@ font-size: 1.3em;
 #intro{
 	margin: -900px 0px 0px 400px;
 	font-size: 2.5em;
-	text-align: left;
-	width: 50%;
+	text-align: center;
+	
 }
 #know{
 	font-size: 0.9em;
 	border:3.5px solid white;
-	width: 30%;
+	margin-top: 10px;
 }
 }
 
@@ -172,7 +183,7 @@ font-size: 1.3em;
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (min-width: 360px) and (max-width: 479px){
+@media (max-width: 420px) {
 #bg1{   
     width: 100%;
 	height: 100vh;
@@ -181,6 +192,7 @@ font-size: 1.3em;
 #leftside{
 	margin: -640px 0px 0px 0px;
 	width: 150px;
+	height: 100vh;
 }
 #rozimg{
 	margin: 70px 0px 0px 15px;
@@ -216,16 +228,32 @@ padding:50px 0px 0px 20px;
 	margin-top: 10px;
 }
 #intro{
-	margin: -350px 0px 0px 0px;
+	margin: -375px 0px 0px 20px;
 	font-size: 0.95em;
-	padding: 10px 0px 0px 90px;
+	padding: 10px 0px 0px 160px;
+	width: 80%;
 }
 #know{
 	font-size: 0.95em;
 	text-shadow: 4px 2px black;
 }
-
-
+#Navbar{
+	margin: 30px 0px 0px 30px;
+	background-color: rgb(255,255,255,0);
+	border-radius:0%;
+	text-align: right;
+}
+#Navbar button{
+	background-color: black;
+}
+#Navbar ul{
+	margin:5px 15px 0px 0px;
+}
+#logo{
+ 	margin: 2px 0px 0px 20px;
+	font-style: italic;
+	font-family: ink free;
+}
 }
 
 
