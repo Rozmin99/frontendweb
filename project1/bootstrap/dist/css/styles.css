@@ -75,6 +75,13 @@
 	background-color: rgb(255,255,255,0.2);
 	border-radius: 45%;
 	justify-content: center;
+}/*****resume**/
+#resume{
+	margin: 100px 0px 0px 150px;
+	width: 30%;
+	height: 50%;
+	background-color: blue;
+
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -251,9 +258,6 @@ padding:50px 0px 0px 20px;
 }
 #logo{
  	margin: 2px 0px 0px 20px;
-	font-style: italic;
-	font-family: ink free;
-}
 }
 
 

@@ -13,8 +13,13 @@
     <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
 	<title>My Resume</title>
 </head>
-<body>
-	<img  id="bg1" src="images/rbg.jpg" alt="bg1" >
+<body style="background-image: url('images/rbg.jpg'); <style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat; background-attachment: fixed;
+  background-size: 100% 100%;
+">
+	
 <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
         <div class="container"><a class="navbar-brand active" href="index.html" id="logo"> RW</a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -34,7 +39,13 @@
             </div>              
         </div>
     </nav>
-
+<!--resume-->
+<div>
+    <div class="container" id="resume">
+        <img src="images/resume.jpg" alt="resume"  class="bg-primary">
+        
+    </div>
+</div>
 
 	<!--jquery,2.popper.js,3.bootstrap-->
     <script src="jquery/dist/jquery.slim.min.js"></script>
